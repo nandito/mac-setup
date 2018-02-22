@@ -1,2 +1,0 @@
-- name: Install Rescue Time
-  homebrew_cask: name=rescuetime

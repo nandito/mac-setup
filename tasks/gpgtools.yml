@@ -1,2 +1,0 @@
-- name: Install gpgtools
-  homebrew_cask: name=gpgtools

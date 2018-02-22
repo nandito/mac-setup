@@ -1,2 +1,0 @@
-- name: Install iTerm
-  homebrew_cask: name=iterm2

@@ -1,2 +1,0 @@
-- name: Install IntelliJ IDEA Community
-  homebrew_cask: name=intellij-idea-ce

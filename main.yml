@@ -5,63 +5,42 @@
     - include: tasks/core.yml
     # - include: tasks/dotfiles.yml
 
-    # editors
-    - include: tasks/atom.yml
-    - include: tasks/sublime-text.yml
-    - include: tasks/visual-studio-code.yml
-    - include: tasks/intellij.yml
+    # editor
+    - include: tasks/editor/atom.yml
+    - include: tasks/editor/visual-studio-code.yml
 
-    # terminal stuff
-    - include: tasks/iterm.yml
-    - include: tasks/tmux.yml
-    - include: tasks/diffmerge.yml
-    - include: tasks/diff-so-fancy.yml
-    - include: tasks/gpgtools.yml
-    - include: tasks/awscli.yml
-    - include: tasks/simplehttp2server.yml
-    # ADD monitor command line
-    # ADD brew install yank
-    # ADD brew install jq
-    # ADD brew install cheat
-    # ADD brew install tokei
+    # terminal
+    - include: tasks/terminal/cheat.yml
+    - include: tasks/terminal/midnight-commander.yml
+    - include: tasks/terminal/simplehttp2server.yml
+    - include: tasks/terminal/tmux.yml
 
-    # https://github.com/pstadler/keybase-gpg-github
-    # https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail
-    # ADD brew install gpg
-    # ADD brew cask install keybase
-    
-    # https://github.com/technicalpickles/homesick
+    # browser
+    - include: tasks/browser/chrome.yml
+    - include: tasks/browser/firefox.yml
 
-    # browsers
-    - include: tasks/chrome.yml
-    - include: tasks/firefox.yml
-    - include: tasks/safari.yml
+    # dev-tool
+    # ADD gitx: https://rowanj.github.io/gitx/
+    - include: tasks/dev-tool/docker.yml
+    - include: tasks/dev-tool/heroku.yml
+    - include: tasks/dev-tool/git-quick-stats.yml
+    - include: tasks/dev-tool/ngrok.yml
+    - include: tasks/dev-tool/postman.yml
+    - include: tasks/dev-tool/postgresql.yml
+    - include: tasks/dev-tool/sequel-pro.yml
 
-    # tools
-    - include: tasks/docker.yml
-    - include: tasks/ngrok.yml
-    - include: tasks/vpn.yml
-    - include: tasks/sourcetree.yml
-    - include: tasks/dash.yml
-    - include: tasks/postman.yml
-    - include: tasks/rescue-time.yml
-    - include: tasks/sequel-pro.yml
+    # util
+    - include: tasks/util/imagemagick.yml
+    - include: tasks/util/taskwarrior.yml
 
-    # languages
-    - include: tasks/golang.yml
-    - include: tasks/node.yml
-    - include: tasks/python.yml
-    - include: tasks/ruby.yml
-    - include: tasks/elixir.yml
-    - include: tasks/elm.yml
-    - include: tasks/java.yml
+    # language
+    - include: tasks/language/node.yml
+    - include: tasks/language/python.yml
+    - include: tasks/language/ruby.yml
 
     # chat
-    - include: tasks/skype.yml
-    - include: tasks/slack.yml
-    - include: tasks/telegram.yml
-    - include: tasks/whatsapp.yml
+    - include: tasks/chat/slack.yml
 
     # media
-    - include: tasks/spotify.yml
-    - include: tasks/vlc.yml
+    - include: tasks/media/spotify.yml
+    - include: tasks/media/vlc.yml

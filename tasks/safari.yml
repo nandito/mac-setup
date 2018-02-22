@@ -1,2 +1,0 @@
-- name: Install Safari Technology Preview
-  homebrew_cask: name=safari-technology-preview

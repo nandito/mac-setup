@@ -1,0 +1,2 @@
+- name: Install Midnight Commander
+  homebrew: name=midnight-commander

@@ -1,0 +1,6 @@
+- name: Install Taskwarrior
+  homebrew: name={{ item }}
+  with_items:
+    - task
+    - taskd
+    - tasksh

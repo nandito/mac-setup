@@ -1,2 +1,0 @@
-- name: Install Java
-  homebrew_cask: name=java

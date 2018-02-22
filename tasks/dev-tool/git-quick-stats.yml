@@ -1,0 +1,2 @@
+- name: Install Git Quick Stats
+  homebrew: name=git-quick-stats
