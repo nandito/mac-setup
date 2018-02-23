@@ -22,7 +22,7 @@
     - include: tasks/browser/opera.yml
 
     # dev-tool
-    # ADD gitx: https://rowanj.github.io/gitx/
+    # ADD gitx: https://rowanj.github.io/gitx/ or try source-tree
     - include: tasks/dev-tool/docker.yml
     - include: tasks/dev-tool/git-quick-stats.yml
     - include: tasks/dev-tool/heroku.yml
@@ -44,6 +44,7 @@
     - include: tasks/util/qbittorrent.yml
     - include: tasks/util/spotifree.yml
     - include: tasks/util/taskwarrior.yml
+    # TODO: use today script fork: https://github.com/megabitsenmzq/Today-Scripts/releases
     - include: tasks/util/today-scripts.yml
     - include: tasks/util/tresorit.yml
     - include: tasks/util/tunnelbear.yml
@@ -64,5 +65,10 @@
 # ADD Swipes
 
 # Extra
+# Install gems
+# Install global npm modules
 # ADD three click dictionaries
 # ADD sidebar bux states
+
+# TODOs
+# set up git user
