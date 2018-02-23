@@ -1,5 +1,2 @@
 - name: Install Heroku
-  homebrew: name={{ item }}
-  with_items:
-    - heroku
-    - heroku-node
+  homebrew: name=heroku
