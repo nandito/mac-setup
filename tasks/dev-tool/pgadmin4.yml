@@ -1,0 +1,2 @@
+- name: Install pgAdmin4
+  homebrew_cask: name=pgadmin4

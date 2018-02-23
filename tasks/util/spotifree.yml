@@ -1,0 +1,2 @@
+- name: Install Spotifree
+  homebrew_cask: name=spotifree

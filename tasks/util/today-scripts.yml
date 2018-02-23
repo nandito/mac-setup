@@ -1,0 +1,2 @@
+- name: Install Today Scripts
+  homebrew_cask: name=today-scripts

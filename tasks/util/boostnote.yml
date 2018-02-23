@@ -1,0 +1,2 @@
+- name: Install Boostnote
+  homebrew_cask: name=boostnote

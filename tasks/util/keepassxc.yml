@@ -1,0 +1,2 @@
+- name: Install KeePassXC
+  homebrew_cask: name=keepassxc

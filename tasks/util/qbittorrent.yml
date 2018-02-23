@@ -1,0 +1,2 @@
+- name: Install qBittorrent
+  homebrew_cask: name=qbittorrent

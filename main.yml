@@ -6,6 +6,7 @@
     # - include: tasks/dotfiles.yml
 
     # editor
+    - include: tasks/editor/android-studio.yml
     - include: tasks/editor/atom.yml
     - include: tasks/editor/visual-studio-code.yml
 
@@ -18,20 +19,34 @@
     # browser
     - include: tasks/browser/chrome.yml
     - include: tasks/browser/firefox.yml
+    - include: tasks/browser/opera.yml
 
     # dev-tool
     # ADD gitx: https://rowanj.github.io/gitx/
     - include: tasks/dev-tool/docker.yml
-    - include: tasks/dev-tool/heroku.yml
     - include: tasks/dev-tool/git-quick-stats.yml
+    - include: tasks/dev-tool/heroku.yml
+    - include: tasks/dev-tool/imageoptim.yml
     - include: tasks/dev-tool/ngrok.yml
-    - include: tasks/dev-tool/postman.yml
+    - include: tasks/dev-tool/pgadmin4.yml
     - include: tasks/dev-tool/postgresql.yml
+    - include: tasks/dev-tool/postman.yml
     - include: tasks/dev-tool/sequel-pro.yml
+    - include: tasks/dev-tool/virtualbox.yml
 
     # util
+    - include: tasks/util/anki.yml
+    - include: tasks/util/boostnote.yml
+    - include: tasks/util/calibre.yml
+    - include: tasks/util/flux.yml
     - include: tasks/util/imagemagick.yml
+    - include: tasks/util/keepassxc.yml
+    - include: tasks/util/qbittorrent.yml
+    - include: tasks/util/spotifree.yml
     - include: tasks/util/taskwarrior.yml
+    - include: tasks/util/today-scripts.yml
+    - include: tasks/util/tresorit.yml
+    - include: tasks/util/tunnelbear.yml
 
     # language
     - include: tasks/language/node.yml
@@ -44,3 +59,10 @@
     # media
     - include: tasks/media/spotify.yml
     - include: tasks/media/vlc.yml
+
+# ADD iStat Menus
+# ADD Swipes
+
+# Extra
+# ADD three click dictionaries
+# ADD sidebar bux states
