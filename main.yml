@@ -27,7 +27,6 @@
     - include: tasks/dev-tool/heroku.yml
     - include: tasks/dev-tool/imageoptim.yml
     - include: tasks/dev-tool/ngrok.yml
-    - include: tasks/dev-tool/npm-packages.yml
     - include: tasks/dev-tool/pgadmin4.yml
     - include: tasks/dev-tool/postgresql.yml
     - include: tasks/dev-tool/postman.yml
@@ -62,12 +61,15 @@
     - include: tasks/media/spotify.yml
     - include: tasks/media/vlc.yml
 
+    # package
+    - include: tasks/package/gem.yml
+    - include: tasks/package/npm.yml
+    - include: tasks/package/pip.yml
+
 # ADD iStat Menus
 # ADD Swipes
 
 # Extra
-# Install gems
-# Install global npm modules
 # ADD three click dictionaries
 # ADD sidebar bux states
 

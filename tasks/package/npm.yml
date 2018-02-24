@@ -1,0 +1,21 @@
+- name: Install global NPM packages.
+  npm:
+    name: "{{ item.name | default(item) }}"
+    state: "{{ item.state | default('present') }}"
+    version: "{{ item.version | default(omit) }}"
+    global: yes
+    executable: "{{ item.executable | default(omit) }}"
+  with_items:
+    - { name: 'babel-core' }
+    - { name: 'babel-eslint' }
+    - { name: 'babel-polyfill' }
+    - { name: 'babel-register' }
+    - { name: 'create-react-app' }
+    - { name: 'create-react-native-app' }
+    - { name: 'eslint' }
+    - { name: 'eslint-config-airbnb-base' }
+    - { name: 'eslint-config-react-app' }
+    - { name: 'firebase-tools' }
+    - { name: 'svgo' }
+    - { name: 'tslint' }
+    - { name: 'typescript' }
