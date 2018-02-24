@@ -30,4 +30,4 @@ fi
 python --version
 ansible --version
 ansible-playbook main.yml -v
-# test -d ~/.dotfiles && cd $_ && ./script/bootstrap
+test -d ~/dotfiles && cd $_ && ./create-symlinks.sh

@@ -3,7 +3,7 @@
     # essentials:
     - include: tasks/homebrew.yml
     - include: tasks/core.yml
-    # - include: tasks/dotfiles.yml
+    - include: tasks/dotfiles.yml
 
     # editor
     - include: tasks/editor/android-studio.yml
@@ -72,6 +72,3 @@
 # Extra
 # ADD three click dictionaries
 # ADD sidebar bux states
-
-# TODOs
-# set up git user
