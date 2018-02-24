@@ -22,7 +22,6 @@
     - include: tasks/browser/opera.yml
 
     # dev-tool
-    # ADD gitx: https://rowanj.github.io/gitx/ or try source-tree
     - include: tasks/dev-tool/docker.yml
     - include: tasks/dev-tool/git-quick-stats.yml
     - include: tasks/dev-tool/heroku.yml
@@ -33,6 +32,7 @@
     - include: tasks/dev-tool/postgresql.yml
     - include: tasks/dev-tool/postman.yml
     - include: tasks/dev-tool/sequel-pro.yml
+    - include: tasks/dev-tool/sourcetree.yml
     - include: tasks/dev-tool/virtualbox.yml
 
     # util
